@@ -10,7 +10,7 @@ from rango.models import Category, Page
 def populate():
     python_cat = add_cat('Python',128,64)
 	
-    student_name_cat= add_cat("Praxitelis Branko Kourtelos",9001,9000)
+    student_name_cat= add_cat("Takis",9001,9000)
     avengers=add_cat('Avengers',45,33)
     add_page(cat=python_cat,
         title="My GIThub page",
